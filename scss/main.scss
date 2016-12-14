@@ -1,0 +1,341 @@
+/* Variables */
+
+$maroon: #7f0000;
+$gray: #808080;
+$smoke: #f5f5f5;
+$headerFont: 'Oswald', sans-serif;
+$defaultFont: 'News Cycle', sans-serif;
+
+/* Mixins */
+
+@mixin button {
+	width: 100%;
+	font-family: $headerFont;
+	font-weight: 300;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+/**** Global styles ****/
+
+h1, h3 {
+	font-family: $headerFont;
+}
+p {
+	font-family: $defaultFont;
+}
+.container-fluid {
+	padding: 0;
+}
+.ct-maroon {
+	color: $maroon;
+}
+.ct-gray {
+	color: $gray;
+}
+.navbar {
+	font-family: $headerFont;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.img-responsive {
+	margin: 0 auto;
+}
+.padded {
+	padding: 5px;
+}
+.inner-heading {
+	margin-top:0;
+	margin-bottom:20px;
+	text-align: center;
+}
+.btn-default {
+	@include button;
+	background-color: $maroon;
+}
+.btn-primary {
+	@include button;	
+}
+.fa-lg {
+	line-height: 5px;
+	/* This fixed an issue where the line height of the 
+	Font Awesome icons was enlarging the height of the 
+	navigation bar */
+}
+.footer-img {
+	margin-top: 20px;
+}
+.text-center {
+	text-align: center;
+}
+.glyph-heading {
+	text-align: center;
+	margin-top: 0;
+}
+
+/**** Home styles ****/
+
+.slideimg {
+	width: 100%;
+}
+.carousel-inner {
+	width: 100%;
+	max-height: 250px;
+}
+.carousel-caption {
+	padding-bottom: 0;
+}
+.carousel-caption h1 {
+	font-size: 5vmax;
+}
+
+/**** FAQ styles ****/
+.panel {
+	.panel-heading {
+		background-image: none;
+	    background-color: $maroon;
+	    color: #000;
+	    font-family: $headerFont;
+	    font-weight: 300;
+	    text-align: center;
+	    font-size: 1.6em;
+	}
+	.panel-body {
+		background: $smoke;
+		font-size: 1.6em;
+	}
+}
+.faq-icon {
+	text-align: center;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.icon-lrgr {
+	font-size: 2em;
+}
+
+/**** Products styles ****/
+
+.thumbnail {
+	padding-bottom: 20px;
+	background: $smoke;
+}
+.thumb-body {
+	margin-bottom: 20px;
+}
+.no-margin {
+	margin: 5px;
+}
+
+/**** Contact styles ****/
+
+label {
+	font-family: $headerFont;
+	font-weight: 300;
+	border-bottom: 1px solid #D7D6D6;
+}
+input, textarea {
+	font-family: $defaultFont;
+  	resize: vertical;/*will prevent resizing horizontally*/ 
+}
+#form-spacer {
+	margin-top: 30px;
+}
+
+/**** Media breakpoints ****/
+
+/* < Xtra Small */
+@media only screen and (min-width : 320px) {
+	.well {
+		h1 {
+			font-size: 1.5em;
+		}
+		p {
+			font-size: 1.1em;
+		}
+	}
+	.foo {
+		font-size: 1em;
+	}
+	.panel {
+		.panel-heading {
+			font-size: 1.4em;
+		}
+		.panel-body {
+			font-size: 1.1em;
+		}
+	}
+	.inner-heading {
+		font-size: 2em;
+	}
+	.footer {
+		font-size: .8em;
+	}  
+	.thumb-head {
+		font-size: 2em;
+	}
+	.thumb-body {
+		font-size: 1.2em;
+	}   
+}
+/* Xtra Small */
+@media only screen and (min-width : 480px) {
+	.inner-heading {
+		font-size: 2.2em;
+	}
+	.navbar {
+		font-size: 1.2em;
+	}
+	.well {
+		h1 {
+			font-size: 1.5em;
+		}
+		p {
+			font-size: 1.2em;
+		}
+	}
+	.foo {
+		font-size: 1.2em;
+	}
+	.panel {
+		.panel-heading {
+			font-size: 1.5em;
+		}
+		.panel-body {
+			font-size: 1.2em;
+		}
+	}
+	.inner-heading {
+		font-size: 2.2em;
+	}
+	.footer {
+		font-size: .8em;
+	}
+	.thumb-head {
+		font-size: 2.2em;
+	}
+	.thumb-body {
+		font-size: 1.35em;
+	}	
+}
+/* Small */
+@media only screen and (min-width : 768px) {
+	.navbar {
+		font-size: 1.3em;
+	}
+	.foo {
+		font-size: 1.5em;
+	}
+	.well {
+		h1 {
+			font-size: 1.9em;
+		}
+		p {
+			font-size: 1.5em;
+		}
+	}
+	.panel {
+		.panel-heading {
+			font-size: 1.8em;
+		}
+		.panel-body {
+			font-size: 1.5em;
+		}
+	}
+	.inner-heading {
+		font-size: 2.4em;
+	}
+	.footer {
+		font-size: .9em;
+	}
+	.thumb-head {
+		font-size: 2.2em;
+	}
+	.thumb-body {
+		font-size: 1.4em;
+	}
+	input, textarea {
+		margin-left: 10px;
+	}
+	.adjust {
+		margin-left: 10px;
+	}
+}
+/* Medium */
+@media only screen and (min-width : 992px) {
+	.navbar {
+		font-size: 1.6em;
+	}
+	.well {
+		padding: 10px;
+		h1 {
+			font-size: 2.4em;
+		}
+		p {
+			font-size: 1.6em;
+			margin-bottom: 0;
+		}
+	}
+	.foo {
+		font-size: 1.6em;
+	}
+	.panel {
+		.panel-heading {
+			font-size: 1.85em;
+		}
+		.panel-body {
+			font-size: 1.6em;
+		}
+	}
+	.inner-heading {
+		font-size: 2.6em;
+	}
+	.footer {
+		font-size: .9em;
+	}
+	.thumb-head {
+		font-size: 2.3em;
+	}
+	.thumb-body {
+		font-size: 1.4em;
+	}	
+}
+/* Large */
+@media only screen and (min-width : 1200px) {
+	.navbar {
+		font-size: 1.8em;
+	}
+	.well {
+		padding: 10px;
+		h1 {
+			font-size: 2.4em;
+		}
+		p {
+			font-size: 1.6em;
+			margin-bottom: 0;
+		}
+	}
+	.foo {
+		font-size: 1.6em;
+	}
+	.panel {
+		.panel-heading {
+			font-size: 2em;
+		}
+		.panel-body {
+			font-size: 1.6em;
+		}
+	}
+	.inner-heading {
+		font-size: 3em;
+	}
+	.footer {
+		font-size: 1em;
+	}
+	.thumb-head {
+		font-size: 2.4em;
+	}
+	.thumb-body {
+		font-size: 1.4em;
+	}
+}
