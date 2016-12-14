@@ -39,7 +39,7 @@
 
 <body>
   <?php  $page = 'faq'; include '../inc/inc_nav.php'; ?>
-  <div class="container" style="padding:0;margin:0 auto;">
+  <div class="container zeros">
     <div class="container">
       <h1 class="inner-heading">Frequently Asked Questions</h1>
       <div class="row">

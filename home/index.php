@@ -39,7 +39,7 @@
 
 <body>
   <?php  $page = 'home'; include '../inc/inc_nav.php'; ?>
-  <div class="container" style="padding:0;margin:0 auto;">
+  <div class="container zeros">
     <div class="container">
       <!-- Uncomment the line below to add buy now button to top -->
       <!-- <div class="row hidden-lg hidden-md">
