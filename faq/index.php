@@ -56,7 +56,7 @@
           <div class="panel panel-default">
             <div class="panel-heading">"Are there other sizes available?"</div>
             <div class="panel-body fix">
-              <h1 class="faq-icon"><span class="glyphicon glyphicon-th-large"></span><span class="glyphicon glyphicon-th" style="margin-left:20px;"></span></h1>
+              <h1 class="faq-icon"><span class="glyphicon glyphicon-th-large"></span><span class="glyphicon glyphicon-th"></span></h1>
               <p>Possibly. In many cases, a change in the mounting hardware is all that is necessary to fit Chip-Trap&trade; coolant filter systems to other machines. Please <a href="../contact/">contact us</a> with your request and we will try to accommodate your needs.</p>
             </div>
           </div>
@@ -66,7 +66,7 @@
           <div class="panel panel-default">
             <div class="panel-heading">"Are the filters reusable?"</div>
             <div class="panel-body">
-              <h1 class="faq-icon" style="margin-top:7px;"><i class="fa fa-recycle fa-lg"></i></h1>
+              <h1 class="faq-icon"><i class="fa fa-recycle fa-lg"></i></h1>
               <p>The Chip-Trap&trade; filter system uses a "High Density" filter that is designed to help trap the chips which actually embed into the filter. Some users find they can shake the filter to remove some of the chips, allowing you to reuse them a bit longer.</p>
             </div>
           </div>

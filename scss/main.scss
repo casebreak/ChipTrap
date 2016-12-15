@@ -25,14 +25,11 @@ p {
 	font-family: $defaultFont;
 }
 .zeros {
-	padding 0;
+	padding: 0;
 	margin: 0 auto;
 }
 .container-fluid {
 	padding: 0;
-}
-.ct-maroon {
-	color: $maroon;
 }
 .ct-gray {
 	color: $gray;
@@ -69,6 +66,11 @@ p {
 .footer-img {
 	margin-top: 20px;
 }
+#footer {
+	text-align: center;
+	color: $gray;
+	padding-top: 5px;
+}
 .text-center {
 	text-align: center;
 }
@@ -76,9 +78,16 @@ p {
 	text-align: center;
 	margin-top: 0;
 }
+.glyphicon-envelope, .glyphicon-earphone {
+	margin-right: 10px;
+}
 
 /**** Home styles ****/
 
+.home-glyph {
+	color: $maroon;
+	margin-bottom: 10px;
+}
 .slideimg {
 	width: 100%;
 }
@@ -94,6 +103,7 @@ p {
 }
 
 /**** FAQ styles ****/
+
 .panel {
 	.panel-heading {
 		background-image: none;
@@ -113,9 +123,13 @@ p {
 	text-align: center;
 	margin: 0;
 	margin-bottom: 10px;
+	margin-top: 7px;
 }
 .icon-lrgr {
 	font-size: 2em;
+}
+.glyphicon-th {
+	margin-left: 20px;
 }
 
 /**** Products styles ****/
@@ -125,10 +139,14 @@ p {
 	background: $smoke;
 }
 .thumb-body {
+	margin: 0;
 	margin-bottom: 20px;
 }
 .no-margin {
 	margin: 5px;
+}
+.ezquote, #basic-kit, #filters {
+	padding: 10px;
 }
 
 /**** Contact styles ****/
@@ -144,6 +162,13 @@ input, textarea {
 }
 #form-spacer {
 	margin-top: 30px;
+}
+.contact-well {
+	padding: 25px;
+	padding-bottom: 5px;
+}
+#privacy {
+	padding: 10px;
 }
 
 /**** Media breakpoints ****/

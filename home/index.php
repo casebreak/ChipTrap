@@ -50,19 +50,19 @@
       <div class="row">
         <div class="col-lg-4 col-md-4">
           <div class="well well-sm">
-            <h1 class="glyph-heading"><span class="glyphicon glyphicon-trash ct-maroon" style="margin-bottom:10px;"></span><br>Chip Happens</h1>
+            <h1 class="glyph-heading"><span class="glyphicon glyphicon-trash home-glyph"></span><br>Chip Happens</h1>
             <p><span class="glyphicon glyphicon-chevron-right ct-maroon"></span> Chip-Trap&trade; is an American made, inexpensive yet highly effective replacement for your machine's inefficient factory tray. Easy to use and maintain, and adjusts to fit most of your HAAS machines.
           </div>       
         </div>
         <div class="col-lg-4 col-md-4">
           <div class="well well-sm">
-            <h1 class="glyph-heading"><span class="glyphicon glyphicon-time ct-maroon" style="margin-bottom:10px;"></span><br>Save Time</h1>
+            <h1 class="glyph-heading"><span class="glyphicon glyphicon-time home-glyph"></span><br>Save Time</h1>
             <p><span class="glyphicon glyphicon-chevron-right ct-maroon"></span> Filter changes take less than one minute without having to roll the coolant tank away from the machine. Tool free installation and a fully adjustable stand ensure a proper fit.</p> 
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
           <div class="well well-sm">
-            <h1 class="glyph-heading"><span class="glyphicon glyphicon-usd ct-maroon" style="margin-bottom:10px;"></span><br>Save Money</h1>
+            <h1 class="glyph-heading"><span class="glyphicon glyphicon-usd home-glyph"></span><br>Save Money</h1>
             <p><span class="glyphicon glyphicon-chevron-right ct-maroon"></span> Protect your machine's expensive head and bearings from the damaging chips that clog your screens, pump, and coolant ports that are responsible for keeping your machine cool and stable.</p>
           </div>
         </div>
@@ -77,7 +77,7 @@
   <?php include '../inc/inc_carousel.php'; ?>
   <div class="container">
     <div class="row">
-      <div class="col-lg-12" style="text-align:center;color:#808080;padding-top:5px;">
+      <div class="col-lg-12" id="footer">
         <p class="footer"><span class="glyphicon glyphicon-chevron-right"></span> &copy; 2016 Machining Solutions Inc. All rights reserved <span class="glyphicon glyphicon-chevron-left"></span>
       <br>
       Chip-Trap&trade; Logo and associated images property of Machining Solutions Inc.

@@ -24,7 +24,7 @@
   <div class="container zeros">
     <div class="container">
       <h1 class="inner-heading">Contact Us</h1>
-      <div class="well" style="padding:25px;padding-bottom:5px;">
+      <div class="well contact-well">
       <p class="text-center">Have a question or comment? We'd love to hear from you. <a class="popout hidden-xs" href="#privacy">View our privacy policy</a><a class="hidden-lg hidden-md hidden-sm" href="../inc/inc_privacy.php">View our privacy policy</a>.</p>
       <div id="form-spacer" class="hidden-xs"></div>
       <form method="POST" action="../mail/send.php" id="contact-form">
@@ -70,7 +70,7 @@
       </form>
     </div>
     <div style="display:none;">
-      <div id="privacy" style="padding:10px;">
+      <div id="privacy">
         <h1 class="thumb-head">Privacy Policy</h1>
         <p class="thumb-body">We take your right to privacy very seriously. We only collect information you knowingly supply to us through email, form completions, or telephone conversations. All information collected is protected against unauthorized access or release.  We do not sell, rent, or loan any identifiable personal information to any third party.  Information is only released if we are required to do so legally.  By using our web site, you consent to the collection and use of this information by Chip-Trap&trade; and Machining Solutions, Inc. only.</p>
       </div>

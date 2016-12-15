@@ -113,7 +113,7 @@
         </div>
       </div>        
       <div style="display:none;">
-        <div id="ezquote" style="padding:10px;">
+        <div id="ezquote">
           <h1 class="thumb-head">EZ-Quote</h1>
           <p class="thumb-body">EZ-Quote benefits the manufacturing environment by making the quoting process quick easy and thorough! Follow the easy to use program to create consistent, accurate quotes time after time.</p>
           <p class="thumb-body">Don't buy an expensive shop control system if all you're after is a good quoting module.</p>
@@ -132,7 +132,7 @@
           <br>          
           <div class="alert alert-warning" role="alert"><p class="thumb-body"><span class="glyphicon glyphicon-exclamation-sign"></span> Microsoft Excel 2000 or compatible alternative required. Excel alternative available free of charge if needed. Details at time of purchase.</div>
         </div>
-        <div id="basic-kit" style="padding:10px;">
+        <div id="basic-kit">
           <h1 class="thumb-head">Chip-Trap Basic and Deluxe Kits</h1>
           <p class="thumb-body">Our Chip-Trap&trade; Coolant Filter Systems fit Haas vertical AND horizontal CNC machines!</p>
           <h3>Basic Kit</h3>
@@ -154,7 +154,7 @@
           <div class="alert alert-warning" role="alert"><p class="thumb-body"><span class="glyphicon glyphicon-exclamation-sign"></span> On machines not requiring a stand, we include 12x High-Density filters in its place. Please let us know in the comments section when you place your order.</p></div> 
           <div class="alert alert-info" role="alert"><p class="thumb-body"><span class="glyphicon glyphicon-info-sign"></span> The unit fits in an opening in the coolant tank (metal pan removed) a minimum of approx. 14” x 19”. This size is common to all models, however some older machines may vary.</p></div>          
         </div>
-        <div id="filters" style="padding:10px;">
+        <div id="filters">
           <h1 class="thumb-head">Chip-Trap&trade; High-Density Replacement Filters</h1>
           <p class="thumb-body">Replacement premium "High Density" disposable filter elements are sold in quantities of 12, 36 and 96. Two filters should be stacked on top of each other for extra protection. Top filter should be changed weekly. Just discard the top one, rotate the bottom one up and put a fresh one on bottom. Double filtration with no additional cost!</p>
         </div>

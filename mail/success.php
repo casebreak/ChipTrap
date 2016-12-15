@@ -18,8 +18,8 @@
   <?php $page = ''; include '../inc/inc_nav.php'; ?>
   <div class="container zeros">
     <div class="container">
-      <h1 class="inner-heading" style="margin-bottom:20px;">Thank you!<br><br>Your message has been sent successfully!</h1>
-      <p class="text-center thumb-body" style="margin:0;"><a href="../home/index.php">Back to home</a></p>
+      <h1 class="inner-heading">Thank you!<br><br>Your message has been sent successfully!</h1>
+      <p class="text-center thumb-body"><a href="../home/index.php">Back to home</a></p>
     </div><!-- Close inner-body Container -->
   </div><!-- Close main body container --> 
   <?php include '../inc/inc_footer.php'; ?>
